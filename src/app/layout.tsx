@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sendlead | Lead Generation Agency",
-  description: "Sendlead is a data-driven lead generation agency delivering exclusive, AI-qualified prospects to your CRM. Discover our proven 7-step methodology for high-quality leads and ROI.",
+  title: "Palm | B2B Operations Agency",
+  description: "Palm is a data-driven B2B growth agency delivering qualified pipeline for technology companies. Discover our proven 7-step methodology for systematic growth and ROI.",
+  icons: {
+    icon: '/favicon-32x32.png',
+  },
 };
 
 export default function RootLayout({
