@@ -180,7 +180,7 @@ export default function AutomationROIBlog() {
             <h3>4. Focusing Only on Direct Savings</h3>
             <p>Capacity creation and strategic advantages often provide more value than direct cost savings.</p>
             
-            <h3>5. Not Accounting for Learning Curve</b></p>
+            <h3>5. Not Accounting for Learning Curve</h3>
             <p>Teams need time to adapt to new systems. Factor in reduced productivity during the transition period.</p>
             
             <h2>Making the Business Case</h2>
