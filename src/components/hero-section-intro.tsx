@@ -58,7 +58,11 @@ export default function HeroSectionIntro() {
           </p>
           
           <div className="mb-12">
-            <wistia-player media-id="oq4w5gmsm6" aspect="1.7777777777777777"></wistia-player>
+            <wistia-player 
+              media-id="oq4w5gmsm6" 
+              aspect="1.7777777777777777"
+              className="w-full max-w-4xl mx-auto"
+            />
           </div>
           
           <div className="flex justify-center">
