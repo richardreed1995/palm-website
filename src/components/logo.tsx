@@ -1,16 +1,19 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { cn } from '../lib/utils'
 
 export const Logo = ({ className }: { className?: string }) => {
     return (
-        <Image
-            src="/sendlead-logo.svg"
-            alt="Sendlead logo"
-            height={32}
-            width={128}
-            className={cn('h-8 w-auto', className)}
-            priority
-        />
+        <Link href="/">
+            <Image
+                src="/logo.svg"
+                alt="Palm logo"
+                height={32}
+                width={128}
+                className={cn('h-8 w-auto', className)}
+                priority
+            />
+        </Link>
     )
 }
 

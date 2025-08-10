@@ -14,62 +14,62 @@ export default function FAQsThree() {
         {
             id: 'item-1',
             icon: 'shield-check',
-            question: 'Are leads completely exclusive to my business?',
-            answer: 'Yes, absolutely. Each lead is exclusively yours and never shared with competing businesses in your sector.',
+            question: 'Will this disrupt our current operations?',
+            answer: 'No. We implement automation gradually using professional tools like Make and N8n that integrate with your existing systems. Your team gets full training on the new processes, and we provide ongoing support to ensure everything runs smoothly.',
         },
         {
             id: 'item-2',
             icon: 'users',
-            question: 'What sets you apart from other providers?',
-            answer: "We're your growth partner, not just a lead source. We provide sales nurturing support (at no additional cost) and a 24 step lead nurturing process if your team is missing important systems such as email follow-up flows, SMS followups, and other sales processes.",
+            question: 'What makes you different from other automation companies?',
+            answer: "We don't automate everything - we find what's actually holding your business back and fix that first. Many automation companies will try to automate your invoicing when you only do 5 invoices per month. We focus on what actually matters to your profits and efficiency, plus we provide full ongoing support.",
         },
         {
             id: 'item-3',
             icon: 'clock',
-            question: 'How quickly will I receive leads after signing up?',
-            answer: "Leads are delivered instantly to your CRM the moment they're qualified. Setup typically takes 24-48 hours after contract signing.",
+            question: 'How quickly will we see results?',
+            answer: "Most clients see immediate improvements within 2-3 weeks as we implement quick wins. Significant time and cost savings typically show up within 30-60 days. We focus on fast, measurable improvements rather than lengthy projects.",
         },
         {
             id: 'item-4',
-            icon: 'brain-circuit',
-            question: 'How do you qualify these leads?',
-            answer: "Our proprietary machine learning system qualifies leads across 14+ data points. We continue to qualify after we’ve generated the lead to provide additional context to your sales team (at no cost).",
+            icon: 'settings',
+            question: 'What tools and platforms do you use?',
+            answer: "We use professional automation platforms like Make and N8n, plus custom code solutions when needed. These integrate with your existing tools - CRM, project management, accounting systems, email platforms. You get enterprise-grade automation without enterprise complexity.",
         },
         {
             id: 'item-5',
-            icon: 'globe',
-            question: 'How do you acquire the leads?',
-            answer: 'We generate leads across Meta, Google Ads, Native, and Organic.',
+            icon: 'alert-triangle',
+            question: 'What if something breaks or stops working?',
+            answer: 'We provide comprehensive ongoing support to ensure your automations stay working perfectly. Regular system health checks, immediate troubleshooting, and proactive maintenance mean you can rely on your automated systems without worry.',
         },
         {
             id: 'item-6',
-            icon: 'pound-sterling',
-            question: 'How is pricing structured?',
-            answer: 'We charge a flat rate of £100 per lead.',
+            icon: 'users',
+            question: 'Will our team know how to use the new systems?',
+            answer: 'Yes. We provide thorough training for your entire team, including documentation, video tutorials, and hands-on training sessions. Everyone will be confident using the new automated processes, and we\'re always available for additional support.',
         },
         {
             id: 'item-7',
-            icon: 'alert-triangle',
-            question: 'Is there a minimum purchase requirement?',
-            answer: 'We require a minimum order of £5,000 worth of leads. After that, you can adjust volume, modify targeting criteria, or pause campaigns at any time.',
+            icon: 'pound-sterling',
+            question: 'How much does this cost?',
+            answer: 'Investment varies based on the complexity of your business and the automation opportunities we identify. Most clients see ROI within 60-90 days through time savings and margin improvements. We provide clear cost and ROI projections upfront.',
         },
         {
             id: 'item-8',
-            icon: 'check-circle',
-            question: 'Do you guarantee valid leads?',
-            answer: 'We verify all phone numbers using OTP and replace any invalid leads that have fake information.',
+            icon: 'globe',
+            question: 'What if our processes are too complex or unique?',
+            answer: 'Complex processes are often the best candidates for automation because that\'s where you\'re losing the most time and money. We specialise in understanding complex service businesses and creating custom automation solutions using code and professional platforms.',
         },
         {
             id: 'item-9',
-            icon: 'lock',
-            question: 'Are you compliant with data privacy regulations?',
-            answer: 'Our enterprise-grade lead distribution software ensures full compliance with GDPR, ICO guidelines, and industry-specific regulations including FCA requirements for financial services and healthcare compliance standards.',
+            icon: 'check-circle',
+            question: 'Do you guarantee results?',
+            answer: 'Yes. We guarantee you\'ll see measurable improvements in efficiency and client satisfaction within 90 days, or we\'ll keep working until you do. Plus, our ongoing support ensures your systems keep delivering results long-term.',
         },
         {
             id: 'item-10',
             icon: 'arrow-right-circle',
             question: 'What are the next steps to get started?',
-            answer: "Complete our simple application form to see if you qualify. Once submitted, we'll schedule a brief call to address any questions and then begin the intake process.",
+            answer: "Book a free business analysis with our automation team. We'll review your current processes, identify automation opportunities, and provide a clear ROI projection. If it's a good fit, we'll create your implementation roadmap. No pressure—just transparent discussion about your goals.",
         },
     ]
 
@@ -81,12 +81,7 @@ export default function FAQsThree() {
                         <div className="sticky top-20">
                             <h2 className="mt-4 text-3xl font-bold">Frequently Asked Questions</h2>
                             <p className="text-muted-foreground mt-4">
-                                Can't find what you're looking for? Contact our{' '}
-                                <Link
-                                    href="#"
-                                    className="text-primary font-medium hover:underline">
-                                    customer support team
-                                </Link>
+                                Commonly asked questions
                             </p>
                         </div>
                     </div>

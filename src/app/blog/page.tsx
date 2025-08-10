@@ -3,18 +3,32 @@ import Image from 'next/image';
 import { HeroHeader } from '@/components/header';
 import FooterSection from '@/components/footer';
 
-const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-
 const posts = [
   {
-    slug: 'parlance-ai-agent',
-    title: 'SendLead Launches Parlance: The AI Agent That Triples Your Appointment Bookings',
-    category: 'Product',
-    date: today,
-    image: '/parlance.png',
-    excerpt: 'Meet Parlance, the AI agent that books 3x more appointments by automating lead nurturing, qualification, and scheduling for your business.'
+    slug: 'hidden-cost-manual-processes',
+    title: 'The Hidden Cost of Manual Processes in B2B Service Businesses',
+    category: 'Business',
+    date: 'January 15, 2025',
+    image: '/gradii-1920x1080 (18).png',
+    excerpt: 'Discover how manual processes are silently eating away at your profits and learn the strategic approach to automation that successful businesses use.'
   },
-  // Add more posts here as needed
+  {
+    slug: 'why-automation-projects-fail',
+    title: 'Why Most Business Automation Projects Fail (And How to Get It Right)',
+    category: 'Automation',
+    date: 'January 22, 2025',
+    image: '/gradii-1920x1080 (19).png',
+    excerpt: 'Learn the five most common reasons automation fails and the proven methodology that successful businesses use to implement automation correctly.'
+  },
+  {
+    slug: '90-day-automation-roadmap',
+    title: 'The 30-60-90 Day Automation Roadmap for B2B Service Businesses',
+    category: 'Strategy',
+    date: 'January 29, 2025',
+    image: '/gradii-1920x1080 (20).png',
+    excerpt: 'Follow this proven 90-day roadmap to systematically automate your business processes and create sustainable competitive advantage.'
+  },
+
 ];
 
 export default function BlogList() {

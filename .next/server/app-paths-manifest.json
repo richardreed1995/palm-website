@@ -1,7 +1,12 @@
 {
+  "/blog/hidden-cost-manual-processes/page": "app/blog/hidden-cost-manual-processes/page.js",
   "/blog/page": "app/blog/page.js",
-  "/blog/parlance-ai-agent/page": "app/blog/parlance-ai-agent/page.js",
+  "/blog/why-automation-projects-fail/page": "app/blog/why-automation-projects-fail/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/get-started/page": "app/get-started/page.js",
-  "/page": "app/page.js"
+  "/guide/page": "app/guide/page.js",
+  "/letter/page": "app/letter/page.js",
+  "/newsletter/page": "app/newsletter/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js"
 }

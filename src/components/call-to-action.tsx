@@ -4,10 +4,10 @@ import Link from 'next/link'
 export default function CallToAction() {
     return (
         <section className="py-16">
-            <div className="mx-auto max-w-5xl rounded-3xl border px-6 py-12 md:py-20 lg:py-32">
+            <div className="mx-auto max-w-5xl rounded-3xl border px-6 py-12 md:py-20 lg:py-32 bg-zinc-900 text-white">
                 <div className="text-center">
-                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Want more customers?</h2>
-                    <p className="mt-4">Book a free consultation with our team</p>
+                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl text-white">Ready to improve your operations?</h2>
+                    <p className="mt-4 text-zinc-300">Book a free business analysis session with our team</p>
 
                     <div className="mt-12 flex flex-wrap justify-center gap-4">
                         <Button

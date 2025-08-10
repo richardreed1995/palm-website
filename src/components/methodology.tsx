@@ -6,28 +6,28 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../..
 
 const methodologyCards = [
   {
-    icon: <BarChart3 className="size-7 text-zinc-300" />, // Conversion Optimisation
-    title: 'Conversion Optimisation',
+    icon: <BarChart3 className="size-7 text-zinc-300" />, // Constraint-Based Automation
+    title: 'Constraint-Based Automation',
     description:
-      "We don't stop at lead generation—we implement complete sales systems including email follow-up flows, SMS sequences, and nurturing processes to maximise your close rates. This ensures leads convert faster and at higher rates than traditional lead-only approaches.",
+      "We don't waste time automating 5 invoices per month when your real problem is client onboarding taking 3 weeks. We find what's actually hurting your business and fix that first - everything else can wait.",
   },
   {
-    icon: <Target className="size-7 text-zinc-300" />, // Revenue Attribution
-    title: 'Revenue Attribution',
+    icon: <Target className="size-7 text-zinc-300" />, // Complete Process Mapping
+    title: 'Complete Process Mapping',
     description:
-      'Our system tracks the complete customer journey from lead to revenue, allowing us to identify which lead characteristics correlate with highest lifetime value. We then optimise targeting to prioritise prospects with the greatest revenue potential, not just volume.',
+      'We map out both your client delivery process and your internal operations to understand how work actually flows through your business. Then we identify where things get stuck, take too long, or require too much manual work.',
   },
   {
-    icon: <ShieldCheck className="size-7 text-zinc-300" />, // Brand Consistency
-    title: 'Brand Consistency',
+    icon: <ShieldCheck className="size-7 text-zinc-300" />, // Client Experience Focus
+    title: 'Client Experience Focus',
     description:
-      'We create fully branded funnels that match your business identity, ensuring prospects experience seamless brand consistency from their first click through to closing. This maintains trust and professionalism throughout the entire customer journey, unlike generic lead forms that disconnect prospects from your brand.',
+      'Every automation we implement makes your clients\' experience better. Automatic progress updates, faster turnaround times, and consistent quality delivery - not just internal efficiency gains.',
   },
   {
-    icon: <BarChart3 className="size-7 text-zinc-300" />, // Real-time Verification
-    title: 'Real-time Verification',
+    icon: <BarChart3 className="size-7 text-zinc-300" />, // Methodical Implementation
+    title: 'Methodical Implementation',
     description:
-      'We verify email and phone numbers in real-time using OTP (One-Time Password) verification, whilst monitoring lead quality through comprehensive tracking metrics. Our 14+ point qualification system ensures consistent lead standards, and we provide transparent performance statistics to prove ROI.',
+      'We implement changes systematically through our proven 7-step process. No chaos, no disruption to your current operations - just steady improvements that compound over time.',
   },
 ];
 
@@ -74,8 +74,8 @@ export default function Methodology() {
     <section id="methodology" className="py-12 md:py-20 bg-zinc-900 text-white scroll-mt-24">
       <div className="mx-auto max-w-5xl px-6 space-y-16">
         <div className="mx-auto max-w-xl text-center space-y-4">
-          <h2 className="text-balance text-4xl font-medium lg:text-5xl mb-4">Our Methodology</h2>
-          <p className="text-zinc-300 text-lg">We focus on metrics beyond leads, such as CLTV, ROI, and revenue. We experiment, yes — but we do it like scientists. Precise, focused, and curious.
+          <h2 className="text-balance text-4xl font-medium lg:text-5xl mb-4">Our Process</h2>
+          <p className="text-zinc-300 text-lg">We don't automate for the sake of it. We find your biggest constraints first, then build systematic solutions that actually move the needle on your profits and free time.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2">
