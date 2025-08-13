@@ -51,21 +51,24 @@ export default function FAQsIntro() {
         
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="border border-gray-200 rounded-lg">
-              <button
-                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
-                onClick={() => setOpenIndex(openIndex === index ? null : index)}
-              >
-                <span className="font-medium text-gray-900">{faq.question}</span>
+            <div 
+              key={index} 
+              className={`border border-gray-200 rounded-lg cursor-pointer transition-all duration-200 hover:border-gray-300 hover:shadow-sm ${
+                openIndex === index ? 'border-gray-300 shadow-md' : ''
+              }`}
+              onClick={() => setOpenIndex(openIndex === index ? null : index)}
+            >
+              <div className="px-6 py-4 flex justify-between items-center">
+                <span className="font-medium text-gray-900 pr-4">{faq.question}</span>
                 <ChevronDown 
-                  className={`h-5 w-5 text-gray-500 transition-transform ${
+                  className={`h-5 w-5 text-gray-500 transition-transform duration-200 flex-shrink-0 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`} 
                 />
-              </button>
+              </div>
               {openIndex === index && (
-                <div className="px-6 pb-4">
-                  <p className="text-gray-600">{faq.answer}</p>
+                <div className="px-6 pb-4 border-t border-gray-100">
+                  <p className="text-gray-600 pt-3">{faq.answer}</p>
                 </div>
               )}
             </div>
