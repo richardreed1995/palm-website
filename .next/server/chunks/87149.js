@@ -1,0 +1,1 @@
+"use strict";exports.id=87149,exports.ids=[87149],exports.modules={87149:(o,e,s)=>{s.r(e),s.d(e,{__iconNode:()=>d,default:()=>p});var t=s(93057);let d=[["polygon",{points:"6 3 20 12 6 21 6 3",key:"1oa8hb"}]],p=(0,t.A)("play",d)}};

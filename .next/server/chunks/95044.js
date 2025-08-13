@@ -1,0 +1,1 @@
+"use strict";exports.id=95044,exports.ids=[95044],exports.modules={95044:(e,t,r)=>{r.r(t),r.d(t,{__iconNode:()=>o,default:()=>s});var i=r(93057);let o=[["rect",{width:"18",height:"18",x:"3",y:"3",rx:"2",ry:"2",key:"1m3agn"}],["polyline",{points:"11 3 11 11 14 8 17 11 17 3",key:"1wcwz3"}]],s=(0,i.A)("album",o)}};

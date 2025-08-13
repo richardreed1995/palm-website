@@ -1,0 +1,1 @@
+"use strict";exports.id=1812,exports.ids=[1812],exports.modules={1812:(t,e,d)=>{d.r(e),d.d(e,{__iconNode:()=>s,default:()=>r});var o=d(93057);let s=[["path",{d:"M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7",key:"c0yzno"}]],r=(0,o.A)("twitch",s)}};

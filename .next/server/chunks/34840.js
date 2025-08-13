@@ -1,0 +1,1 @@
+"use strict";exports.id=34840,exports.ids=[34840],exports.modules={34840:(e,d,t)=>{t.r(d),t.d(d,{__iconNode:()=>r,default:()=>a});var s=t(93057);let r=[["path",{d:"M7.9 20A9 9 0 1 0 4 16.1L2 22Z",key:"vv11sd"}],["path",{d:"M12 8v4",key:"1got3b"}],["path",{d:"M12 16h.01",key:"1drbdi"}]],a=(0,s.A)("message-circle-warning",r)}};

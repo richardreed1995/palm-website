@@ -1,0 +1,1 @@
+"use strict";exports.id=10995,exports.ids=[10995],exports.modules={10995:(e,t,r)=>{r.r(t),r.d(t,{__iconNode:()=>d,default:()=>i});var o=r(93057);let d=[["rect",{width:"20",height:"12",x:"2",y:"6",rx:"2",key:"9lu3g6"}]],i=(0,o.A)("rectangle-horizontal",d)}};

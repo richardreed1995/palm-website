@@ -1,0 +1,1 @@
+"use strict";exports.id=23594,exports.ids=[23594],exports.modules={23594:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>a,default:()=>o});var s=d(93057);let a=[["path",{d:"M20 4L9 15",key:"1qkx8z"}],["path",{d:"M21 19L3 19",key:"100sma"}],["path",{d:"M9 15L4 10",key:"9zxff7"}]],o=(0,s.A)("check-line",a)}};

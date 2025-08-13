@@ -1,0 +1,1 @@
+"use strict";exports.id=58896,exports.ids=[58896],exports.modules={58896:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>i,default:()=>o});var r=d(93057);let i=[["path",{d:"m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5",key:"ftymec"}],["rect",{x:"2",y:"6",width:"14",height:"12",rx:"2",key:"158x01"}]],o=(0,r.A)("video",i)}};

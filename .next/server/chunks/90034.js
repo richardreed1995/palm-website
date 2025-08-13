@@ -1,0 +1,1 @@
+"use strict";exports.id=90034,exports.ids=[90034],exports.modules={90034:(e,t,a)=>{a.r(t),a.d(t,{__iconNode:()=>s,default:()=>r});var d=a(93057);let s=[["path",{d:"M16 3h3a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-3",key:"1kt8lf"}],["path",{d:"M8 21H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h3",key:"gduv9"}]],r=(0,d.A)("brackets",s)}};

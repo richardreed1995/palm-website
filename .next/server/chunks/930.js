@@ -1,0 +1,1 @@
+"use strict";exports.id=930,exports.ids=[930],exports.modules={930:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>r,default:()=>h});var i=d(93057);let r=[["path",{d:"M12 3v18",key:"108xh3"}],["path",{d:"M3 12h18",key:"1i2n21"}],["rect",{x:"3",y:"3",width:"18",height:"18",rx:"2",key:"h1oib"}]],h=(0,i.A)("grid-2x2",r)}};

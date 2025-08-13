@@ -1,0 +1,1 @@
+"use strict";exports.id=4999,exports.ids=[4999],exports.modules={4999:(t,e,r)=>{r.r(e),r.d(e,{__iconNode:()=>d,default:()=>h});var a=r(93057);let d=[["rect",{width:"10",height:"14",x:"3",y:"8",rx:"2",key:"1vrsiq"}],["path",{d:"M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4",key:"1j4zmg"}],["path",{d:"M8 18h.01",key:"lrp35t"}]],h=(0,a.A)("tablet-smartphone",d)}};

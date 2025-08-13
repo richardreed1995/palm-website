@@ -1,0 +1,1 @@
+"use strict";exports.id=49447,exports.ids=[49447],exports.modules={49447:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>h,default:()=>i});var r=d(93057);let h=[["rect",{width:"20",height:"16",x:"2",y:"4",rx:"2",key:"18n3k1"}],["path",{d:"M6 8h.01",key:"x9i8wu"}],["path",{d:"M10 8h.01",key:"1r9ogq"}],["path",{d:"M14 8h.01",key:"1primd"}]],i=(0,r.A)("app-window-mac",h)}};

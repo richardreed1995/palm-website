@@ -1,0 +1,1 @@
+"use strict";exports.id=95759,exports.ids=[95759],exports.modules={95759:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>l,default:()=>o});var s=d(93057);let l=[["path",{d:"M4 4v16",key:"6qkkli"}]],o=(0,s.A)("tally-1",l)}};

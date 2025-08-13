@@ -1,0 +1,1 @@
+"use strict";exports.id=83427,exports.ids=[83427],exports.modules={83427:(e,s,d)=>{d.r(s),d.d(s,{__iconNode:()=>o,default:()=>r});var t=d(93057);let o=[["line",{x1:"12",x2:"12",y1:"2",y2:"22",key:"7eqyqh"}],["path",{d:"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6",key:"1b0p4s"}]],r=(0,t.A)("dollar-sign",o)}};

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3837],{3837:(e,r,t)=>{t.r(r),t.d(r,{__iconNode:()=>h,default:()=>k});var a=t(45141);let h=[["path",{d:"m17 18-6-6 6-6",key:"1yerx2"}],["path",{d:"M7 6v12",key:"1p53r6"}]],k=(0,a.A)("chevron-first",h)}}]);

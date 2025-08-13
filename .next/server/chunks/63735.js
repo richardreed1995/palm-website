@@ -1,0 +1,1 @@
+"use strict";exports.id=63735,exports.ids=[63735],exports.modules={63735:(d,e,t)=>{t.r(e),t.d(e,{__iconNode:()=>a,default:()=>l});var o=t(93057);let a=[["path",{d:"M12 13v8l-4-4",key:"1f5nwf"}],["path",{d:"m12 21 4-4",key:"1lfcce"}],["path",{d:"M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284",key:"ui1hmy"}]],l=(0,o.A)("cloud-download",a)}};

@@ -1,0 +1,1 @@
+"use strict";exports.id=30736,exports.ids=[30736],exports.modules={30736:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>h,default:()=>i});var r=d(93057);let h=[["path",{d:"M7 2h10",key:"nczekb"}],["path",{d:"M5 6h14",key:"u2x4p"}],["rect",{width:"18",height:"12",x:"3",y:"10",rx:"2",key:"l0tzu3"}]],i=(0,r.A)("gallery-vertical-end",h)}};

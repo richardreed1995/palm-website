@@ -1,0 +1,1 @@
+"use strict";exports.id=22781,exports.ids=[22781],exports.modules={22781:(e,t,r)=>{r.r(t),r.d(t,{__iconNode:()=>i,default:()=>s});var d=r(93057);let i=[["rect",{width:"18",height:"18",x:"3",y:"3",rx:"2",key:"afitv7"}],["path",{d:"M9 17V7h4a3 3 0 0 1 0 6H9",key:"1dfk2c"}]],s=(0,d.A)("square-parking",i)}};

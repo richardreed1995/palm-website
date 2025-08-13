@@ -1,0 +1,1 @@
+"use strict";exports.id=48757,exports.ids=[48757],exports.modules={48757:(a,e,t)=>{t.r(e),t.d(e,{__iconNode:()=>o,default:()=>r});var d=t(93057);let o=[["path",{d:"M2 13a2 2 0 0 0 2-2V7a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0V4a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0v-4a2 2 0 0 1 2-2",key:"57tc96"}]],r=(0,d.A)("audio-waveform",o)}};

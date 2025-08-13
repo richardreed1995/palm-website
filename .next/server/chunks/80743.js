@@ -1,0 +1,1 @@
+"use strict";exports.id=80743,exports.ids=[80743],exports.modules={80743:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>s,default:()=>a});var r=d(93057);let s=[["path",{d:"M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z",key:"14u9p9"}]],a=(0,r.A)("triangle",s)}};

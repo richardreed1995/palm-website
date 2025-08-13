@@ -1,0 +1,1 @@
+"use strict";exports.id=86758,exports.ids=[86758],exports.modules={86758:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>s,default:()=>a});var o=d(93057);let s=[["path",{d:"M12 20V10",key:"g8npz5"}],["path",{d:"M18 20v-4",key:"8uic4z"}],["path",{d:"M6 20V4",key:"1w1bmo"}]],a=(0,o.A)("chart-no-axes-column-decreasing",s)}};

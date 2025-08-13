@@ -1,0 +1,1 @@
+"use strict";exports.id=51305,exports.ids=[51305],exports.modules={51305:(e,t,i)=>{i.r(t),i.d(t,{__iconNode:()=>x,default:()=>o});var r=i(93057);let x=[["rect",{width:"20",height:"14",x:"2",y:"3",rx:"2",key:"48i651"}],["line",{x1:"8",x2:"16",y1:"21",y2:"21",key:"1svkeh"}],["line",{x1:"12",x2:"12",y1:"17",y2:"21",key:"vw1qmm"}]],o=(0,r.A)("monitor",x)}};

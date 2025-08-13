@@ -1,0 +1,1 @@
+"use strict";exports.id=76639,exports.ids=[76639],exports.modules={76639:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>r,default:()=>s});var i=d(93057);let r=[["path",{d:"M7 21h10",key:"1b0cd5"}],["rect",{width:"20",height:"14",x:"2",y:"3",rx:"2",key:"48i651"}]],s=(0,i.A)("tv-minimal",r)}};

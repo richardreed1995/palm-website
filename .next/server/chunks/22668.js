@@ -1,0 +1,1 @@
+"use strict";exports.id=22668,exports.ids=[22668],exports.modules={22668:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>c,default:()=>p});var s=d(93057);let c=[["path",{d:"m6 16 6-12 6 12",key:"1b4byz"}],["path",{d:"M8 12h8",key:"1wcyev"}],["path",{d:"m16 20 2 2 4-4",key:"13tcca"}]],p=(0,s.A)("spell-check",c)}};

@@ -1,0 +1,1 @@
+"use strict";exports.id=9508,exports.ids=[9508],exports.modules={9508:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>c,default:()=>i});var r=d(93057);let c=[["rect",{width:"18",height:"18",x:"3",y:"3",rx:"2",key:"afitv7"}],["circle",{cx:"12",cy:"12",r:"5",key:"nd82uf"}],["path",{d:"M12 12h.01",key:"1mp3jc"}]],i=(0,r.A)("disc-album",c)}};

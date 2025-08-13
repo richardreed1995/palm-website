@@ -1,0 +1,1 @@
+"use strict";exports.id=37201,exports.ids=[37201],exports.modules={37201:(e,t,i)=>{i.r(t),i.d(t,{__iconNode:()=>l,default:()=>d});var r=i(93057);let l=[["rect",{width:"18",height:"12",x:"3",y:"4",rx:"2",ry:"2",key:"1qhy41"}],["line",{x1:"2",x2:"22",y1:"20",y2:"20",key:"ni3hll"}]],d=(0,r.A)("laptop-minimal",l)}};

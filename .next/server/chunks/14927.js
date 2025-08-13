@@ -1,0 +1,1 @@
+"use strict";exports.id=14927,exports.ids=[14927],exports.modules={14927:(e,t,a)=>{a.r(t),a.d(t,{__iconNode:()=>o,default:()=>s});var d=a(93057);let o=[["path",{d:"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9",key:"4ay0iu"}],["path",{d:"M20 3v4",key:"1olli1"}],["path",{d:"M22 5h-4",key:"1gvqau"}]],s=(0,d.A)("moon-star",o)}};

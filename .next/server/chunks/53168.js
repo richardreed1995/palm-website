@@ -1,0 +1,1 @@
+"use strict";exports.id=53168,exports.ids=[53168],exports.modules={53168:(c,e,r)=>{r.r(e),r.d(e,{__iconNode:()=>l,default:()=>s});var i=r(93057);let l=[["circle",{cx:"12",cy:"12",r:"1",key:"41hilf"}],["circle",{cx:"19",cy:"12",r:"1",key:"1wjl8i"}],["circle",{cx:"5",cy:"12",r:"1",key:"1pcz8c"}]],s=(0,i.A)("ellipsis",l)}};

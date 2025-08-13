@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[96753],{96753:(e,a,h)=>{h.r(a),h.d(a,{__iconNode:()=>t,default:()=>d});var k=h(45141);let t=[["path",{d:"m8 6 4-4 4 4",key:"ybng9g"}],["path",{d:"M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22",key:"1hyw0i"}],["path",{d:"m20 22-5-5",key:"1m27yz"}]],d=(0,k.A)("merge",t)}}]);

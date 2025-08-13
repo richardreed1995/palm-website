@@ -1,0 +1,1 @@
+"use strict";exports.id=12258,exports.ids=[12258],exports.modules={12258:(e,r,s)=>{s.r(r),s.d(r,{__iconNode:()=>x,default:()=>l});var t=s(93057);let x=[["ellipse",{cx:"12",cy:"11",rx:"3",ry:"2",key:"1b2qxu"}],["ellipse",{cx:"12",cy:"12.5",rx:"10",ry:"8.5",key:"h8emeu"}]],l=(0,t.A)("torus",x)}};

@@ -1,0 +1,1 @@
+"use strict";exports.id=42359,exports.ids=[42359],exports.modules={42359:(e,s,d)=>{d.r(s),d.d(s,{__iconNode:()=>i,default:()=>a});var t=d(93057);let i=[["path",{d:"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",key:"1r0f0z"}],["path",{d:"M9 10h6",key:"9gxzsh"}]],a=(0,t.A)("map-pin-minus-inside",i)}};

@@ -1,0 +1,1 @@
+"use strict";exports.id=20064,exports.ids=[20064],exports.modules={20064:(e,o,s)=>{s.r(o),s.d(o,{__iconNode:()=>r,default:()=>d});var t=s(93057);let r=[["polygon",{points:"5 4 15 12 5 20 5 4",key:"16p6eg"}],["line",{x1:"19",x2:"19",y1:"5",y2:"19",key:"futhcm"}]],d=(0,t.A)("skip-forward",r)}};

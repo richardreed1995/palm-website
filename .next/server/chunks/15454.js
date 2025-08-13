@@ -1,0 +1,1 @@
+"use strict";exports.id=15454,exports.ids=[15454],exports.modules={15454:(t,e,d)=>{d.r(e),d.d(e,{__iconNode:()=>s,default:()=>h});var a=d(93057);let s=[["path",{d:"M8 6h10",key:"9lnwnk"}],["path",{d:"M6 12h9",key:"1g9pqf"}],["path",{d:"M11 18h7",key:"c8dzvl"}]],h=(0,a.A)("chart-no-axes-gantt",s)}};

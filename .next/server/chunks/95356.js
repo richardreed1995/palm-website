@@ -1,0 +1,1 @@
+"use strict";exports.id=95356,exports.ids=[95356],exports.modules={95356:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>s,default:()=>r});var o=d(93057);let s=[["path",{d:"M5 15h14",key:"m0yey3"}],["path",{d:"M5 9h14",key:"7tsvo6"}],["path",{d:"m14 20-5-5 6-6-5-5",key:"1jo42i"}]],r=(0,o.A)("rail-symbol",s)}};

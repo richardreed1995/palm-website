@@ -1,0 +1,1 @@
+"use strict";exports.id=28885,exports.ids=[28885],exports.modules={28885:(e,t,o)=>{o.r(t),o.d(t,{__iconNode:()=>s,default:()=>r});var d=o(93057);let s=[["path",{d:"m7 7 10 10-5 5V2l5 5L7 17",key:"1q5490"}]],r=(0,d.A)("bluetooth",s)}};

@@ -1,0 +1,1 @@
+"use strict";exports.id=40492,exports.ids=[40492],exports.modules={40492:(e,t,i)=>{i.r(t),i.d(t,{__iconNode:()=>d,default:()=>h});var r=i(93057);let d=[["path",{d:"M3 3v16a2 2 0 0 0 2 2h16",key:"c24i48"}],["rect",{x:"7",y:"13",width:"9",height:"4",rx:"1",key:"1iip1u"}],["rect",{x:"7",y:"5",width:"12",height:"4",rx:"1",key:"1anskk"}]],h=(0,r.A)("chart-bar-big",d)}};

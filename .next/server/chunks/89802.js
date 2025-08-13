@@ -1,0 +1,1 @@
+"use strict";exports.id=89802,exports.ids=[89802],exports.modules={89802:(e,t,r)=>{r.r(t),r.d(t,{__iconNode:()=>h,default:()=>o});var d=r(93057);let h=[["rect",{width:"14",height:"20",x:"5",y:"2",rx:"2",ry:"2",key:"1yt0o3"}],["path",{d:"M12.667 8 10 12h4l-2.667 4",key:"h9lk2d"}]],o=(0,d.A)("smartphone-charging",h)}};

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[73299],{73299:(e,l,y)=>{y.r(l),y.d(l,{__iconNode:()=>i,default:()=>k});var u=y(45141);let i=[["line",{x1:"19",x2:"10",y1:"4",y2:"4",key:"15jd3p"}],["line",{x1:"14",x2:"5",y1:"20",y2:"20",key:"bu0au3"}],["line",{x1:"15",x2:"9",y1:"4",y2:"20",key:"uljnxc"}]],k=(0,u.A)("italic",i)}}]);

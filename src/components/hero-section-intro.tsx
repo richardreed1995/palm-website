@@ -3,82 +3,31 @@
 import { Button } from "@/components/ui/button";
 import { TextEffect } from "@/components/ui/text-effect";
 import Link from "next/link";
-import { useEffect } from "react";
 
 export default function HeroSectionIntro() {
-  useEffect(() => {
-    // Load Wistia script properly
-    if (typeof window !== 'undefined' && !window.Wistia) {
-      const script = document.createElement("script");
-      script.src = "https://fast.wistia.com/player.js";
-      script.async = true;
-      document.body.appendChild(script);
-
-      const script2 = document.createElement("script");
-      script2.src = "https://fast.wistia.com/embed/oq4w5gmsm6.js";
-      script2.async = true;
-      script2.type = "module";
-      document.body.appendChild(script2);
-
-      // Add Wistia styles
-      const style = document.createElement("style");
-      style.textContent = `
-        wistia-player[media-id='oq4w5gmsm6']:not(:defined) { 
-          background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/oq4w5gmsm6/swatch'); 
-          display: block; 
-          filter: blur(5px); 
-          padding-top:56.25%; 
-        }
-      `;
-      document.head.appendChild(style);
-
-      return () => {
-        // Cleanup
-        if (document.body.contains(script)) {
-          document.body.removeChild(script);
-        }
-        if (document.body.contains(script2)) {
-          document.body.removeChild(script2);
-        }
-        if (document.head.contains(style)) {
-          document.head.removeChild(style);
-        }
-      };
-    }
-  }, []);
-
   return (
-    <section className="relative overflow-hidden bg-background py-20 sm:py-32">
+    <section className="relative overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-4xl text-center">
-          <div className="mb-8">
-            <TextEffect
-              className="text-2xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl leading-tight"
-            >
-              Get 5 Complete Business Automation Systems Built & Installed In Your Business - In Just 30 Days!
-            </TextEffect>
-          </div>
-          <p className="text-lg leading-8 text-muted-foreground mb-8">
-            We'll set up automated systems that take care of 5 key areas of your business for a one-time payment. More profits, less stress, and more free time!
+        <div className="mx-auto max-w-2xl text-center">
+          <TextEffect
+            className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+            per="word"
+            preset="fade-in-blur"
+          >
+            Transform Your Business With Automation
+          </TextEffect>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Get 5 complete automation flows that will save you 20+ hours per week and scale your service business without hiring more staff.
           </p>
-          <p className="text-sm italic leading-8 text-muted-foreground mb-12">
-            Watch this video for all the details and price, then schedule your call!
-          </p>
-          
-          <div className="mb-12">
-            <wistia-player 
-              media-id="oq4w5gmsm6" 
-              aspect="1.7777777777777777"
-              className="w-full max-w-5xl mx-auto"
-            />
-          </div>
-          
-          <div className="flex justify-center">
-            <Link href="/get-started-intro">
-              <Button size="lg" className="bg-[#A8FF9E] text-black hover:bg-[#8BFF7A] px-12 py-6 text-xl font-semibold shadow-lg">
-                Get Started NOW
-              </Button>
-            </Link>
+          <div className="mt-10 flex items-center justify-center gap-x-6">
+            <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
+              <Link href="/get-started-intro">
+                Get Started
+                <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </Button>
           </div>
         </div>
       </div>

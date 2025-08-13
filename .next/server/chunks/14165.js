@@ -1,0 +1,1 @@
+"use strict";exports.id=14165,exports.ids=[14165],exports.modules={14165:(t,o,e)=>{e.r(o),e.d(o,{__iconNode:()=>i,default:()=>d});var s=e(93057);let i=[["polygon",{points:"3 11 22 2 13 21 11 13 3 11",key:"1ltx0t"}]],d=(0,s.A)("navigation",i)}};

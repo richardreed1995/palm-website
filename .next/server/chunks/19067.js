@@ -1,0 +1,1 @@
+"use strict";exports.id=19067,exports.ids=[19067],exports.modules={19067:(e,a,d)=>{d.r(a),d.d(a,{__iconNode:()=>s,default:()=>o});var t=d(93057);let s=[["path",{d:"m7 11 4.08 10.35a1 1 0 0 0 1.84 0L17 11",key:"1v6356"}],["path",{d:"M17 7A5 5 0 0 0 7 7",key:"151p3v"}],["path",{d:"M17 7a2 2 0 0 1 0 4H7a2 2 0 0 1 0-4",key:"1sdaij"}]],o=(0,t.A)("ice-cream-cone",s)}};

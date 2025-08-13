@@ -1,0 +1,1 @@
+"use strict";exports.id=97781,exports.ids=[97781],exports.modules={97781:(e,t,d)=>{d.r(t),d.d(t,{__iconNode:()=>o,default:()=>r});var s=d(93057);let o=[["path",{d:"M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z",key:"c7niix"}]],r=(0,s.A)("droplet",o)}};

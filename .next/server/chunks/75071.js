@@ -1,0 +1,1 @@
+"use strict";exports.id=75071,exports.ids=[75071],exports.modules={75071:(e,d,t)=>{t.r(d),t.d(d,{__iconNode:()=>s,default:()=>r});var o=t(93057);let s=[["path",{d:"m17 15-5.5 5.5L9 18",key:"15q87x"}],["path",{d:"M5 17.743A7 7 0 1 1 15.71 10h1.79a4.5 4.5 0 0 1 1.5 8.742",key:"9ho6ki"}]],r=(0,o.A)("cloud-check",s)}};

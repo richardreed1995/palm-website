@@ -1,0 +1,1 @@
+"use strict";exports.id=50355,exports.ids=[50355],exports.modules={50355:(e,c,r)=>{r.r(c),r.d(c,{__iconNode:()=>l,default:()=>s});var i=r(93057);let l=[["circle",{cx:"12",cy:"12",r:"1",key:"41hilf"}],["circle",{cx:"12",cy:"5",r:"1",key:"gxeob9"}],["circle",{cx:"12",cy:"19",r:"1",key:"lyex9k"}]],s=(0,i.A)("ellipsis-vertical",l)}};

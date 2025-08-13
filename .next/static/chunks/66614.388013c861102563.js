@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[66614],{66614:(e,a,h)=>{h.r(a),h.d(a,{__iconNode:()=>k,default:()=>p});var d=h(45141);let k=[["path",{d:"M12 3v12",key:"1x0j5s"}],["path",{d:"m17 8-5-5-5 5",key:"7q97r8"}],["path",{d:"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4",key:"ih7n3h"}]],p=(0,d.A)("upload",k)}}]);

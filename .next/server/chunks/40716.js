@@ -1,0 +1,1 @@
+"use strict";exports.id=40716,exports.ids=[40716],exports.modules={40716:(e,r,t)=>{t.r(r),t.d(r,{__iconNode:()=>s,default:()=>d});var c=t(93057);let s=[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3",key:"1u773s"}],["path",{d:"M12 17h.01",key:"p32p05"}]],d=(0,c.A)("circle-question-mark",s)}};

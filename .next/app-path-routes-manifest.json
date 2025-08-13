@@ -1,0 +1,20 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/blog/automation-roi-guide/page": "/blog/automation-roi-guide",
+  "/blog/90-day-automation-roadmap/page": "/blog/90-day-automation-roadmap",
+  "/blog/page": "/blog",
+  "/blog/hidden-cost-manual-processes/page": "/blog/hidden-cost-manual-processes",
+  "/cookies/page": "/cookies",
+  "/blog/why-automation-projects-fail/page": "/blog/why-automation-projects-fail",
+  "/get-started/page": "/get-started",
+  "/intro/page": "/intro",
+  "/get-started-intro/page": "/get-started-intro",
+  "/letter/page": "/letter",
+  "/newsletter/page": "/newsletter",
+  "/success/page": "/success",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/terms/page": "/terms",
+  "/guide/page": "/guide"
+}
