@@ -1997,6 +1997,10 @@
     color: var(--color-zinc-600);
   }
 
+  .italic {
+    font-style: italic;
+  }
+
   .underline-offset-4 {
     text-underline-offset: 4px;
   }

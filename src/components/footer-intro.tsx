@@ -16,14 +16,14 @@ export default function FooterIntro() {
           
           <div className="flex items-center gap-8">
             <Link 
-              href="/privacy-policy" 
+              href="/privacy" 
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Privacy Policy
             </Link>
             <div className="h-4 w-px bg-gray-300"></div>
             <Link 
-              href="/cookie-policy" 
+              href="/cookies" 
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Cookie Policy

@@ -4,7 +4,6 @@ import { ArrowRight, ChevronRight } from 'lucide-react'
 import { Button } from './ui/button'
 import { TextEffect } from './ui/text-effect'
 import { AnimatedGroup } from './ui/animated-group'
-import LogoCloud from './logo-cloud'
 
 const transitionVariants = {
     item: {
@@ -115,7 +114,6 @@ export default function HeroSection() {
                     </div>
                 </div>
             </section>
-            <LogoCloud />
         </main>
     )
 }

@@ -844,29 +844,21 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 function HeroSectionIntro() {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         // Load Wistia script
-        const script1 = document.createElement("script");
-        script1.src = "https://fast.wistia.com/player.js";
-        script1.async = true;
-        document.body.appendChild(script1);
+        const script = document.createElement("script");
+        script.src = "https://fast.wistia.com/embed/medias/oq4w5gmsm6.jsonp";
+        script.async = true;
+        document.body.appendChild(script);
         const script2 = document.createElement("script");
         script2.src = "https://fast.wistia.com/embed/oq4w5gmsm6.js";
         script2.async = true;
-        script2.type = "module";
         document.body.appendChild(script2);
-        // Add Wistia styles
-        const style = document.createElement("style");
-        style.textContent = `wistia-player[media-id='oq4w5gmsm6']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/oq4w5gmsm6/swatch'); display: block; filter: blur(5px); padding-top:56.25%; }`;
-        document.head.appendChild(style);
         return ()=>{
             // Cleanup
-            if (document.body.contains(script1)) {
-                document.body.removeChild(script1);
+            if (document.body.contains(script)) {
+                document.body.removeChild(script);
             }
             if (document.body.contains(script2)) {
                 document.body.removeChild(script2);
-            }
-            if (document.head.contains(style)) {
-                document.head.removeChild(style);
             }
         };
     }, []);
@@ -885,12 +877,12 @@ function HeroSectionIntro() {
                                 children: "Get 5 Complete Business Automation Systems Built & Installed In Your Business - In Just 30 Days!"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/hero-section-intro.tsx",
-                                lineNumber: 47,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/hero-section-intro.tsx",
-                            lineNumber: 46,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -898,7 +890,7 @@ function HeroSectionIntro() {
                             children: "We'll set up automated systems that take care of 5 key areas of your business for a one-time payment. More profits, less stress, and more free time!"
                         }, void 0, false, {
                             fileName: "[project]/src/components/hero-section-intro.tsx",
-                            lineNumber: 53,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -906,22 +898,24 @@ function HeroSectionIntro() {
                             children: "Watch this video for all the details and price, then schedule your call!"
                         }, void 0, false, {
                             fileName: "[project]/src/components/hero-section-intro.tsx",
-                            lineNumber: 56,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mb-12",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("wistia-player", {
-                                "media-id": "oq4w5gmsm6",
-                                aspect: "1.7777777777777777"
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "wistia_embed wistia_async_oq4w5gmsm6 w-full max-w-4xl mx-auto",
+                                style: {
+                                    paddingTop: '56.25%'
+                                }
                             }, void 0, false, {
                                 fileName: "[project]/src/components/hero-section-intro.tsx",
-                                lineNumber: 61,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/hero-section-intro.tsx",
-                            lineNumber: 60,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -934,39 +928,39 @@ function HeroSectionIntro() {
                                     children: "Get Started NOW"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/hero-section-intro.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 60,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/hero-section-intro.tsx",
-                                lineNumber: 65,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/hero-section-intro.tsx",
-                            lineNumber: 64,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/hero-section-intro.tsx",
-                    lineNumber: 45,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/hero-section-intro.tsx",
-                lineNumber: 44,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$3$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$logo$2d$cloud$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/hero-section-intro.tsx",
-                lineNumber: 73,
+                lineNumber: 67,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/hero-section-intro.tsx",
-        lineNumber: 43,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }

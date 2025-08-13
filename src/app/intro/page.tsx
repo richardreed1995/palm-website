@@ -1,5 +1,4 @@
 import HeroSectionIntro from "@/components/hero-section-intro";
-import TestimonialsIntro from "@/components/testimonials-intro";
 import AutomationFlows from "@/components/automation-flows";
 import BenefitsIntro from "@/components/benefits-intro";
 import FAQsIntro from "@/components/faqs-intro";
@@ -15,7 +14,6 @@ export default function IntroPage() {
         <HeroSectionIntro />
         <BenefitsIntro />
         <AutomationFlows />
-        <TestimonialsIntro />
         <FAQsIntro />
         <CTAIntro />
       </main>

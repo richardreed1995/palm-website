@@ -2,32 +2,49 @@
 
 import { Button } from "@/components/ui/button";
 import { TextEffect } from "@/components/ui/text-effect";
-import LogoCloud from "@/components/logo-cloud";
 import Link from "next/link";
 import { useEffect } from "react";
 
 export default function HeroSectionIntro() {
   useEffect(() => {
-    // Load Wistia script
-    const script = document.createElement("script");
-    script.src = "https://fast.wistia.com/embed/medias/oq4w5gmsm6.jsonp";
-    script.async = true;
-    document.body.appendChild(script);
+    // Load Wistia script properly
+    if (typeof window !== 'undefined' && !window.Wistia) {
+      const script = document.createElement("script");
+      script.src = "https://fast.wistia.com/player.js";
+      script.async = true;
+      document.body.appendChild(script);
 
-    const script2 = document.createElement("script");
-    script2.src = "https://fast.wistia.com/embed/oq4w5gmsm6.js";
-    script2.async = true;
-    document.body.appendChild(script2);
+      const script2 = document.createElement("script");
+      script2.src = "https://fast.wistia.com/embed/oq4w5gmsm6.js";
+      script2.async = true;
+      script2.type = "module";
+      document.body.appendChild(script2);
 
-    return () => {
-      // Cleanup
-      if (document.body.contains(script)) {
-        document.body.removeChild(script);
-      }
-      if (document.body.contains(script2)) {
-        document.body.removeChild(script2);
-      }
-    };
+      // Add Wistia styles
+      const style = document.createElement("style");
+      style.textContent = `
+        wistia-player[media-id='oq4w5gmsm6']:not(:defined) { 
+          background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/oq4w5gmsm6/swatch'); 
+          display: block; 
+          filter: blur(5px); 
+          padding-top:56.25%; 
+        }
+      `;
+      document.head.appendChild(style);
+
+      return () => {
+        // Cleanup
+        if (document.body.contains(script)) {
+          document.body.removeChild(script);
+        }
+        if (document.body.contains(script2)) {
+          document.body.removeChild(script2);
+        }
+        if (document.head.contains(style)) {
+          document.head.removeChild(style);
+        }
+      };
+    }
   }, []);
 
   return (
@@ -44,14 +61,15 @@ export default function HeroSectionIntro() {
           <p className="text-lg leading-8 text-muted-foreground mb-8">
             We'll set up automated systems that take care of 5 key areas of your business for a one-time payment. More profits, less stress, and more free time!
           </p>
-          <p className="text-lg leading-8 text-muted-foreground mb-12">
+          <p className="text-sm italic leading-8 text-muted-foreground mb-12">
             Watch this video for all the details and price, then schedule your call!
           </p>
           
           <div className="mb-12">
-            <div 
-              className="wistia_embed wistia_async_oq4w5gmsm6 w-full max-w-4xl mx-auto"
-              style={{ paddingTop: '56.25%' }}
+            <wistia-player 
+              media-id="oq4w5gmsm6" 
+              aspect="1.7777777777777777"
+              className="w-full max-w-5xl mx-auto"
             />
           </div>
           
@@ -64,7 +82,6 @@ export default function HeroSectionIntro() {
           </div>
         </div>
       </div>
-      <LogoCloud />
     </section>
   );
 } 
