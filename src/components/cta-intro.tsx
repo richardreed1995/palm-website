@@ -11,7 +11,10 @@ export default function CTAIntro() {
         <div className="mt-12">
           <Link href="/get-started-intro">
             <Button size="lg" className="bg-[#A8FF9E] text-black hover:bg-[#8BFF7A] px-8 py-4 text-lg">
-              Get Started Now
+              Get Started
+              <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
             </Button>
           </Link>
         </div>

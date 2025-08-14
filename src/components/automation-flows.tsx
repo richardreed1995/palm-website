@@ -7,31 +7,31 @@ const flows = [
     title: "Acquisition",
     description: "Our authority content system transforms your expertise into a content machine. We take your thoughts, ideas, and knowledge and automatically turn them into engaging social content, blog content, email campaigns that position you as the expert in your field and generate high quality leads.",
     icon: Target,
-    image: "/SCR-20250531-ksyc.png"
+    image: "/Authoritycontent.png"
   },
   {
     title: "Conversion",
     description: "We help you build an assessment funnel that generates and qualifies leads. The assessment tool educates your leads on your offer and shows them how you can solve their problems.",
     icon: Users,
-    image: "/SCR-20250531-kucr.png"
+    image: "/Conversion.jpg"
   },
   {
     title: "Onboarding",
     description: "Our automated onboarding sequence impresses new clients from the moment they sign. This system guides clients through everything they need to know, sets clear expectations, collects essential information, and ensures they feel confident and excited about working with you.",
     icon: UserCheck,
-    image: "/Screenshot%202025-05-31%20at%2011.51.29%20am.jpg.png"
+    image: "/onboarding.jpg"
   },
   {
     title: "Fulfilment",
     description: "Production line task management that keeps your team organised and projects on track. Our fulfilment system automatically assigns tasks to the right team members at the right time, tracks progress, and ensures consistent delivery standards without you having to micromanage every detail.",
     icon: Settings,
-    image: "/SCR-20250531-kujm.png"
+    image: "/SCR-20250531-kucr.png"
   },
   {
     title: "Retention",
     description: "Automated client satisfaction tracking that identifies upsell and case study opportunities. Our retention system also flags at risk clients, so you can take action and proactively fix issues.",
     icon: BarChart3,
-    image: "/Screenshot%202025-05-31%20at%2011.51.41%20am.jpg.png"
+    image: "/Retention.jpg"
   }
 ];
 
@@ -79,7 +79,10 @@ export default function AutomationFlows() {
         <div className="text-center mt-16">
           <Link href="/get-started-intro">
             <Button size="lg" className="bg-[#A8FF9E] text-black hover:bg-[#8BFF7A] px-8 py-4 text-lg">
-              Get Started NOW
+              Get Started
+              <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
             </Button>
           </Link>
         </div>

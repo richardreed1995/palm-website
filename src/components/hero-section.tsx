@@ -106,6 +106,9 @@ export default function HeroSection() {
                                         className="rounded-xl px-5 text-base">
                                         <Link href="/get-started">
                                             <span className="text-nowrap">Get Started</span>
+                                            <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                            </svg>
                                         </Link>
                                     </Button>
                                 </div>
