@@ -1,0 +1,54 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { TextEffect } from "@/components/ui/text-effect";
+import Link from "next/link";
+
+export default function HeroSectionMapping() {
+  return (
+    <section className="relative overflow-hidden bg-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl text-center">
+          <TextEffect
+            className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+            per="word"
+            preset="fade-in-blur"
+          >
+            Complete Business Process Mapping & Bottleneck Automation Service
+          </TextEffect>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            We'll map your entire business from first enquiry to client retention, then build a custom automation to eliminate your most costly bottleneck. ROI guaranteed or full refund.
+          </p>
+          <p className="mt-4 text-sm italic text-gray-500">
+            Watch the video below to see pricing then book a call on the next page
+          </p>
+        </div>
+        
+        <div className="mt-16 mx-auto max-w-4xl">
+          <div className="relative rounded-xl overflow-hidden shadow-2xl bg-gray-900">
+            <video
+              className="w-full aspect-video"
+              controls
+              preload="metadata"
+              poster="https://fast.wistia.com/embed/medias/oq4w5gmsm6/swatch"
+            >
+              <source src="/Automate Your Business in 30 Days (2).mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          
+          <div className="mt-10 flex items-center justify-center">
+            <Button asChild size="lg" style={{ backgroundColor: '#a8ff9e', color: 'black' }} className="hover:opacity-80">
+              <Link href="/get-started-mapping">
+                Get Started
+                <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -25,8 +25,6 @@ export default function SuccessPage() {
         <p className="text-lg text-gray-600 mb-8 text-center">
           Thank you for your interest in Palm. Let's schedule a strategy call to discuss your specific needs.
         </p>
-        <br></br>
-        <p className="text-gray-500 text-sm">Please wait 5 seconds for the calendar to load below.</p>
       </div>
 
       <div className="px-4 flex-1">

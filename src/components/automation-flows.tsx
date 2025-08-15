@@ -11,7 +11,7 @@ const flows = [
   },
   {
     title: "Conversion",
-    description: "We help you build an assessment funnel that generates and qualifies leads. The assessment tool educates your leads on your offer and shows them how you can solve their problems.",
+    description: "We help you build automated conversion funnels that generate and qualify leads. Our systems educate your leads on your offer and show them how you can solve their problems.",
     icon: Users,
     image: "/Conversion.jpg"
   },

@@ -154,7 +154,7 @@ export const HeroHeader = () => {
                                 asChild
                                 size="sm"
                                 className="lg:inline-flex">
-                                <Link href="/get-started">
+                                <Link href="/get-started-intro">
                                     <span>Get Started</span>
                                 </Link>
                             </Button>

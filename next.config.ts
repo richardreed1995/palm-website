@@ -13,7 +13,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Content-Security-Policy',
-            value: "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://fast.wistia.com https://embedwistia-a.akamaihd.net; object-src 'none';",
+            value: "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://fast.wistia.com https://embedwistia-a.akamaihd.net https://assets.calendly.com https://wistia.com; object-src 'none';",
           },
         ],
       },
