@@ -16,7 +16,9 @@ export default function FounderLetterPage() {
               
               <div className="space-y-6 text-gray-700 leading-relaxed">
                 
-                <p>Does this sound familiar? You started your business to build something profitable and scalable—one that would give you freedom and financial success. But somewhere along the way, things got... complicated.</p>
+                <p>Does this sound familiar? You started your business to build something profitable and scalable, one that would give you freedom and financial success.</p>
+                
+                <p>But somewhere along the way, things got... complicated.</p>
                 
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Every process requires your personal attention</li>
@@ -29,7 +31,7 @@ export default function FounderLetterPage() {
                 
                 <p>I'm Richard Reed, founder of Palm.</p>
                 
-                <p>Before Palm, I built and scaled my own B2B service business. Like many founders, I started by doing everything myself—sales, delivery, admin, client management. I was working 70+ hour weeks and barely breaking even.</p>
+                <p>Before Palm, I built and scaled my own B2B service business. Like many founders, I started by doing everything myself. Sales, delivery, admin, client management. I was working 70+ hour weeks and barely breaking even.</p>
                 
                 <p>Then I discovered something that changed everything: the right automation and processes could transform a chaotic, low-margin business into a profitable, scalable operation.</p>
                 
@@ -43,33 +45,11 @@ export default function FounderLetterPage() {
                   </ul>
                 </div>
                 
-                <div className="my-8">
-                  <h3 className="font-semibold text-gray-900 mb-4">Recent client results:</h3>
-                  <ul className="space-y-2">
-                    <li>• Accounting firm: 35% margin increase, 20 hours/week saved</li>
-                    <li>• Marketing agency: 50% faster project delivery, 40% higher client satisfaction</li>
-                    <li>• Consultancy: 45% margin improvement, eliminated weekend work</li>
-                  </ul>
-                </div>
+                <p>It took years of experimenting, failing, and refining to discover which processes actually move the needle on profitability and efficiency.</p>
                 
-                <p>It took years of experimenting, failing, and refining to discover which processes actually move the needle on profitability and efficiency. Most automation companies focus on the wrong things—they'll automate your invoicing when you only send 5 invoices per month, instead of fixing the bottlenecks that are actually costing you time and money.</p>
+                <p>Most automation companies focus on the wrong things, they'll automate your invoicing when you only send 5 invoices per month, instead of fixing the bottlenecks that are actually costing you time and money.</p>
                 
-                <p className="text-lg font-semibold">We don't automate everything—we find what's actually holding your business back and fix that first.</p>
-                
-                <div className="my-8">
-                  <h3 className="font-semibold text-gray-900 mb-4">What you'll achieve:</h3>
-                  <ul className="space-y-2">
-                    <li>• Double your margins through strategic process improvements</li>
-                    <li>• Reclaim 15-20 hours per week by eliminating manual bottlenecks</li>
-                    <li>• Improve client satisfaction with consistent, professional delivery</li>
-                    <li>• Build a business that runs without you being involved in every decision</li>
-                  </ul>
-                </div>
-                
-                <div className="my-8">
-                  <h3 className="font-semibold text-gray-900 mb-4">Our guarantee:</h3>
-                  <p>You'll see measurable improvements in efficiency and client satisfaction within 90 days, or we'll keep working until you do.</p>
-                </div>
+                <p>We don't automate everything, we find what's actually holding your business back and fix that first.</p>
                 
                 <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">How We Work</h2>
                 
