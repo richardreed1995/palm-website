@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const benefits = [
   {
-    title: "Complete Process Visibility",
-    description: "Get a comprehensive map of your entire business operations. Understand exactly how leads move through your system and where revenue opportunities are being missed."
+    title: "Complete Visibility",
+    description: "Get a comprehensive map of your entire business operations. Understand exactly where the revenue opportunities and process improvements are in your business."
   },
   {
-    title: "Guaranteed Return on Investment",
+    title: "Guaranteed ROI",
     description: "We identify and automate your most expensive bottleneck. If the automation doesn't deliver measurable ROI greater than our fee within 90 days, we provide a full refund."
   },
   {
@@ -22,7 +22,7 @@ export default function BenefitsMapping() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4">
-            Why Business Process Mapping Matters
+            Three Reasons To Do This
           </h2>
           <p className="text-lg text-gray-600">
             Clear visibility, measurable improvements, and systematic growth

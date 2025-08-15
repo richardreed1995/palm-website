@@ -4,31 +4,31 @@ import Link from "next/link";
 
 const processes = [
   {
-    title: "Lead Acquisition",
+    title: "Acquisition",
     description: "Document every step from initial awareness to qualified enquiry. Identify conversion leaks and missed opportunities in your marketing and lead generation systems.",
     icon: Search,
     image: "/Authoritycontent.png"
   },
   {
-    title: "Sales Conversion",
+    title: "Conversion",
     description: "Map your complete sales process to understand where prospects disengage. Analyse decision points, objection patterns, and pipeline inefficiencies.",
     icon: Target,
     image: "/Conversion.jpg"
   },
   {
-    title: "Client Onboarding",
+    title: "Onboarding",
     description: "Chart the client journey from contract signature through project initiation. Spot friction points that impact client satisfaction and project success rates.",
     icon: UserCheck,
     image: "/onboarding.jpg"
   },
   {
-    title: "Service Delivery",
+    title: "Delivery",
     description: "Trace how work flows through your team from brief to completion. Identify resource bottlenecks, quality control gaps, and delivery inefficiencies.",
     icon: Cog,
     image: "/SCR-20250531-kucr.png"
   },
   {
-    title: "Client Retention",
+    title: "Retention",
     description: "Analyse the complete client lifecycle to understand retention drivers. Map opportunities for account growth, referrals, and long-term value maximisation.",
     icon: Heart,
     image: "/Retention.jpg"
@@ -57,9 +57,14 @@ export default function ProcessMapping() {
                     <IconComponent className="h-8 w-8 text-gray-500" />
                     <h3 className="text-2xl font-bold text-gray-900">{process.title}</h3>
                   </div>
-                  <p className="text-lg text-gray-600 leading-relaxed">
+                  <p className="text-lg text-gray-600 leading-relaxed mb-6">
                     {process.description}
                   </p>
+                  <div className="flex items-center gap-3">
+                    <span className="text-sm text-gray-500 font-medium">
+                      {process.title} process mapping
+                    </span>
+                  </div>
                 </div>
                 <div className="flex-1">
                   <div className="rounded-lg overflow-hidden shadow-lg bg-gray-100">

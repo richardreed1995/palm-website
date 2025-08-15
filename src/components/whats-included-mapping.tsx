@@ -11,7 +11,7 @@ export default function WhatsIncludedMapping() {
             What's Included?
           </h2>
           <p className="text-lg text-gray-600">
-            Everything you need to map, understand, and optimize your business operations
+            Everything you need to map, understand, and optimise your business operations
           </p>
         </div>
         
@@ -21,54 +21,54 @@ export default function WhatsIncludedMapping() {
               <div className="space-y-6">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
-                  <span className="text-white text-left">Complete business process mapping</span>
+                  <span className="text-white text-left">Two half-day sessions</span>
                 </div>
                 
                 <div className="flex items-center gap-3">
-                  <Video className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
-                  <span className="text-white text-left">Two half-day Zoom sessions</span>
+                  <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
+                  <span className="text-white text-left">Full business process mapping</span>
                 </div>
                 
                 <div className="flex items-center gap-3">
-                  <Zap className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
-                  <span className="text-white text-left">Working automation solution</span>
+                  <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
+                  <span className="text-white text-left">Automation implementation</span>
                 </div>
                 
                 <div className="flex items-center gap-3">
-                  <Calendar className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
-                  <span className="text-white text-left">30-day delivery guarantee</span>
+                  <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
+                  <span className="text-white text-left">Dedicated business analyst</span>
                 </div>
                 
                 <div className="flex items-center gap-3">
-                  <Map className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
-                  <span className="text-white text-left">Comprehensive automation roadmap</span>
+                  <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
+                  <span className="text-white text-left">Get best practices</span>
                 </div>
               </div>
               
               <div className="space-y-6">
                 <div className="flex items-center gap-3">
-                  <Target className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
-                  <span className="text-white text-left">Bottleneck identification</span>
+                  <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
+                  <span className="text-white text-left">Complete automation roadmap</span>
                 </div>
                 
                 <div className="flex items-center gap-3">
-                  <BarChart3 className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
-                  <span className="text-white text-left">ROI analysis & projections</span>
-                </div>
-                
-                <div className="flex items-center gap-3">
-                  <FileText className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
-                  <span className="text-white text-left">Process documentation</span>
-                </div>
-                
-                <div className="flex items-center gap-3">
-                  <Handshake className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
-                  <span className="text-white text-left">Ongoing partnership options</span>
-                </div>
-                
-                <div className="flex items-center gap-3">
-                  <Users className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
                   <span className="text-white text-left">Expert guidance & support</span>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
+                  <span className="text-white text-left">30-day delivery</span>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
+                  <span className="text-white text-left">ROI guarantee</span>
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  <CheckCircle className="w-6 h-6 text-[#A8FF9E] flex-shrink-0" />
+                  <span className="text-white text-left">Enterprise automation tooling</span>
                 </div>
               </div>
             </div>
